@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: test-config-client
+  cloud:
+    config:
+      uri: http://localhost:8002
+
+---
+server:
+  port: 8001
